@@ -18,8 +18,10 @@ while 1:
 		series = Fraction(1,i)
 	else:
 		i+=1
-		series = Fraction(1,i)
-
+		series = Fraction(1,i) #this part takes the longest
+	
+#this gives minimum amount of fractions
+#in egyptian format
 print(result)
 	
 	
